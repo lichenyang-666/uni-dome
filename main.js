@@ -3,6 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 
+// main.js
+import uView from "@/uni_modules/uview-ui";
+Vue.use(uView);
+
 Vue.config.productionTip = false
 
 App.mpType = 'app'

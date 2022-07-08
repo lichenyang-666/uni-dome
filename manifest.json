@@ -1,6 +1,6 @@
 {
-    "name" : "uni-dome2",
-    "appid" : "__UNI__71B3D89",
+    "name" : "uni-dome",
+    "appid" : "__UNI__7D38273",
     "description" : "",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -47,12 +47,15 @@
         "appid" : "wx7627344c4f870471",
         "setting" : {
             "urlCheck" : false,
-			"checkSiteMap": false,
             "es6" : true,
             "postcss" : true,
             "minified" : true
         },
-        "usingComponents" : true
-    },
-    "vueVersion" : "2"
+        "usingComponents" : true,
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "获取位置"
+            }
+        }
+    }
 }
